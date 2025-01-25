@@ -67,7 +67,7 @@ export default function Timer() {
     return (
         <div className="main">
             <h1>Pomodoro Timer</h1>
-            <h1>{workTime.min}:{workTime.sec}</h1>
+            <h1>{workTime.min}min:{workTime.sec}sec</h1>
             <h1>{isWork ? "Work" : "Rest"} Time</h1>
             <div>
                 <button onClick={() => setIsRunning(true)}>Start</button>
